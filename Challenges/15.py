@@ -19,6 +19,7 @@ Dependencies: pip install bcrypt==3.2.0
 import getpass
 import bcrypt
 
+#map
 usuarios = {
     "axel": bcrypt.hashpw(b"luffy24", bcrypt.gensalt()),
     "andrade": bcrypt.hashpw(b"robin28", bcrypt.gensalt()),
