@@ -1,1 +1,2 @@
-# python-codes
+# Proyectos - Python
+Contiene mis proyectos de práctica 
