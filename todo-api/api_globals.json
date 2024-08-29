@@ -1,0 +1,21 @@
+{
+	"id": "aeaa57d5-df70-472d-8632-b164c8f58bcc",
+	"values": [
+		{
+			"key": "URL",
+			"value": "http://127.0.0.1:8050",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PYTHON",
+			"value": "http://127.0.0.1:5000",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-08-29T02:56:14.954Z",
+	"_postman_exported_using": "Postman/11.9.2"
+}

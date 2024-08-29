@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "a1b83342-d0c0-49b1-b318-84432accfb71",
+		"name": "Python API - Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27007732"
+	},
+	"item": [
+		{
+			"name": "Obtener tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{PYTHON}}/tasks",
+					"host": [
+						"{{PYTHON}}"
+					],
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test 1\",\r\n    \"description\": \"Test description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{PYTHON}}/tasks",
+					"host": [
+						"{{PYTHON}}"
+					],
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
